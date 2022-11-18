@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Borussia Dortmund | Tickets</title>
+  <link rel="stylesheet" type="text/css" href="css/style_tickets.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    function print_result() {
+      var fname = document.form.fname.value;
+      var lname = document.form.lname.value;
+      alert("Name = " + fname + " " + lname);
+
+      var email = document.form.email.value;
+      alert("E-mail = " + email);
+
+      var phone = document.form.phone.value;
+      alert("Phone = " + phone);
+
+      var match;
+      if (document.form.match[0].checked)
+        match = document.form.match[0].value;
+      else if (document.form.match[1].checked)
+        match = document.form.match[1].value;
+      else if (document.form.match[2].checked)
+        match = document.form.match[2].value;
+      alert("Selected match: " + match);
+
+      var qty_index = document.form.qty.selectedIndex;
+      var qty_val = document.form.qty.options[qty_index].value;
+      alert("Number of tickets = " + qty_val);
+      alert("Total price: " + qty_val + "*$50 = $" + qty_val * 50);
+      alert("Redirecting to external checkout...");
+    }
+  </script>
+</head>
+<header>
+  <div class="main">
+    <div id="topnav" class="topnav">
+      <input id="topnav-toggle" type="checkbox">
+      <div class="logo">
+        <img src="logo.png" />
+        <p>Borussia Dortmund</p>
+      </div>
+      <ul class="links">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Team.html">Team</a></li>
+        <li><a class="active" href="Tickets.html">Tickets</a></li>
+        <li><a href="history/History_1902.html">History</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+      <label for="topnav-toggle" class="icon-burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+  </div>
+</header>
+
+<body>
+  <div class="box">
+    <div class="form">
+      <div class="wrapper">
+        <div class="title">
+          Buy Tickets
+        </div>
+        <form name="form" onSubmit="print_result()">
+          <div class="form" name"form">
+            <div class="inputfield">
+              <label>First Name</label>
+              <input type="text" class="input" name="fname" required pattern="[a-zA-Z0-9]+">
+            </div>
+            <div class="inputfield">
+              <label>Last Name</label>
+              <input type="text" class="input" name="lname" required pattern="[a-zA-Z0-9]+">
+            </div>
+            <div class="inputfield">
+              <label>Email Address</label>
+              <input type="email" class="input" name="email" required>
+            </div>
+            <div class="inputfield">
+              <label>Phone Number</label>
+              <input type="text" class="input" name="phone" required pattern="[0-9]{8}">
+            </div>
+            <div class="inputfield">
+              <label>Match</label>
+            </div>
+            <div class="inputfield match">
+              <input class="match" type="radio" id="match" name="match"
+                value="Borussia Dortmund vs. RB Leipzig | 8 May 9:30pm" required>
+              <label class="ms_label" for="master">Borussia Dortmund vs. RB Leipzig | 8 May 9:30pm</label>
+            </div>
+            <div class="inputfield match">
+              <input class="match" type="radio" id="match" name="match"
+                value="Mainz vs. Borussia Dortmund | 15 May 9:30pm">
+              <label class="vs_label" for="visa">Mainz vs. Borussia Dortmund | 15 May 9:30pm</label>
+            </div>
+            <div class="inputfield match">
+              <input class="match" type="radio" id="match" name="match"
+                value="Borussia Dortmund vs. Leverkusen | 22 May 9:30pm">
+              <label class="vs_label" for="visa">Borussia Dortmund vs. Leverkusen | 22 May 9:30pm</label><br>
+            </div>
+            <div class="inputfield">
+              <label for="qty">Quantity</label>
+              <select name="qty" id="qty">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+              </select>
+            </div>
+            <div class="inputfield">
+              <label>Payment Method</label>
+              <input class="card" type="radio" id="master" name="card" value="MS" required>
+              <label class="ms_label" for="master">Master Card</label>
+              <input class="card" type="radio" id="visa" name="card" value="VS">
+              <label class="vs_label" for="visa">Visa Card</label><br>
+            </div>
+            <div class="inputfield">
+              <label>Card Number</label>
+              <input class="input" type="text" name="cardnum" required pattern="[0-9]{13,16}">
+            </div>
+            <div class="inputfield">
+              <label>Holder Name</label>
+              <input class="input" type="text" name="expiry" required>
+            </div>
+            <div class="inputfield">
+              <label>CVV</label>
+              <input class="input" type="text" name="cvv" required pattern="^[0-9]{3,4}$">
+            </div>
+            <div class="inputfield">
+              <label>Expiry Date</label>
+              <input class="input" type="text" name="expiry" required pattern="([0-9]{2}[/]?){2}">
+            </div>
+            <div class="inputfield terms">
+              <input type="checkbox" required>
+              <p>Agreed to terms and conditions</p>
+            </div>
+            <div class="inputfield">
+              <input type="submit" value="Checkout" class="btn">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+</body>
+
+</html>
