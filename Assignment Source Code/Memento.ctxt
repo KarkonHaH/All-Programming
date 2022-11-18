@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Memento
+comment1.params=typr
+comment1.target=Memento(ToyProduct)
+comment2.params=
+comment2.target=void\ restore()
+comment3.params=
+comment3.target=ToyProduct\ getToyProduct()
+numComments=4

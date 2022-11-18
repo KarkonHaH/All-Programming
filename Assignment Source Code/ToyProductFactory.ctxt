@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=ToyProductFactory
+comment1.params=sc
+comment1.target=ToyProduct\ createToyProduct(java.util.Scanner)
+numComments=2

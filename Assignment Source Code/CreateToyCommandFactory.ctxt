@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CreateToyCommandFactory
+comment1.params=toys\ sc\ commands\ ct
+comment1.target=CreateToyCommandFactory(java.util.Vector,\ java.util.Scanner,\ java.util.Stack,\ CareTaker)
+comment2.params=
+comment2.target=Command\ createCommand()
+numComments=3

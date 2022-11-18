@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=RemoteControlCar
+comment1.params=productID\ name\ maxSpeed
+comment1.target=RemoteControlCar(int,\ java.lang.String,\ double)
+comment2.params=
+comment2.target=double\ getMaxSpeed()
+comment3.params=maxSpeed
+comment3.target=void\ setMaxSpeed(double)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

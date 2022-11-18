@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=PrintCommandFactory
+comment1.params=toys\ sc
+comment1.target=PrintCommandFactory(java.util.Vector,\ java.util.Scanner)
+comment2.params=
+comment2.target=Command\ createCommand()
+numComments=3

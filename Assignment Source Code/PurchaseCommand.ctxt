@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=PurchaseCommand
+comment1.params=toys\ sc\ ct
+comment1.target=PurchaseCommand(java.util.Vector,\ java.util.Scanner,\ CareTaker)
+comment2.params=
+comment2.target=void\ execute()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

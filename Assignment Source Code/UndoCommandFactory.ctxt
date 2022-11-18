@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=UndoCommandFactory
+comment1.params=ct
+comment1.target=UndoCommandFactory(CareTaker)
+comment2.params=
+comment2.target=Command\ createCommand()
+numComments=3
