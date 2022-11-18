@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Comparator
+comment0.text=\r\n\ Class\ \:\ Comparator\r\n\ Description\ \:\ Download\ from\ moodle\ \r\n\ @Name\ \:\ Chan\ Pak\ Lam\r\n\ @StdID\:\ 200074680\r\n\ @Class\:\ IT114105/1C\r\n\ @2021-04-08\r\n\ \r\n\ I\ understand\ the\ meaning\ of\ academic\ dishonesty,\ in\ particular\ plagiarism,\ copyright\r\n\ infringement\ and\ collusion.\ I\ am\ aware\ of\ the\ consequences\ if\ found\ to\ be\ involved\ in\r\n\ these\ misconducts.\ I\ hereby\ declare\ that\ the\ work\ submitted\ for\ the\ \u201CITP4510\ Data\r\n\ Structures\ &\ Algorithms\u201D\ is\ authentic\ record\ of\ my\ own\ work.\r\n\ \r\n
+comment1.params=item1\ item2
+comment1.target=boolean\ isEqualTo(java.lang.Object,\ java.lang.Object)
+comment2.params=item1\ item2
+comment2.target=boolean\ isLessThanOrEqualTo(java.lang.Object,\ java.lang.Object)
+comment3.params=item1\ item2
+comment3.target=boolean\ isGreaterThan(java.lang.Object,\ java.lang.Object)
+comment4.params=item1\ item2
+comment4.target=boolean\ isGreaterThanOrEqualTo(java.lang.Object,\ java.lang.Object)
+numComments=5

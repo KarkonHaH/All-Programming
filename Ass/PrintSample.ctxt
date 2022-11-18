@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=PrintSample
+comment1.params=
+comment1.target=PrintSample()
+comment2.params=filename
+comment2.target=PrintSample(java.lang.String)
+numComments=3

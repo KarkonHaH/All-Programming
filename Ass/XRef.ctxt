@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=XRef
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=javaStmt
+comment2.target=java.lang.String[]\ tokenizer(java.lang.String)
+comment3.params=tokens
+comment3.target=void\ check(java.lang.String[])
+numComments=4
