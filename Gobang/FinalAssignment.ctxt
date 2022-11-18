@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=FinalAssignment
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=x\ num
+comment2.target=boolean\ CheckRange(int,\ int)
+comment3.params=num
+comment3.target=boolean\ CheckWinner(int)
+comment4.params=
+comment4.target=void\ ShowChecker()
+numComments=5
